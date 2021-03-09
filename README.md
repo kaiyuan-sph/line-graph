@@ -1,6 +1,7 @@
 # line-graph
+## Add this code in the google sheet apps script 
 
-Add this code in the google sheet apps script 
+```
 function doGet(e) {
   if (e.parameter.method == "line") { 
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("line-graph");
@@ -11,3 +12,4 @@ function doGet(e) {
       .setMimeType(ContentService.MimeType.JAVASCRIPT);
   }
 }
+```
