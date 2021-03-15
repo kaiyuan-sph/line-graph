@@ -17,7 +17,7 @@ function doGet(e) {
   ## Add this in the HTML page where you embed the form
   ```
 <p>
-  <iframe frameborder="0" id="line-graph" scrolling="no" src="URL-OF-THE-FORM" width="100%"></iframe>
+  <iframe frameborder="0" id="line-graph" scrolling="no" src="https://kaiyuan-sph.github.io/line-graph/" width="100%"></iframe>
 </p>
 <script src="/bt_files/2021/form/iframeResizer.min.js"></script>
 <script>
